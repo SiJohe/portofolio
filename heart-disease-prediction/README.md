@@ -1,6 +1,8 @@
 # Heart Disease Classification
 This project focuses on building a binary classification model to predict the presence of heart disease based on patient health data. The objective is to apply machine learning techniques, from data exploration to model evaluation, and achieve a reliable prediction system.
 
+The dataset used in this project: [Heart Disease Dataset from Kaggle](https://www.kaggle.com/datasets/krishujeniya/heart-diseae/data).
+
 ## Workflow
 1. **Exploratory Data Analysis (EDA)**  
    - Checked missing values, feature distribution, and data normality.  
