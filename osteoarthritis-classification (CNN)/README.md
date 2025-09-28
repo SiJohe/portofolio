@@ -12,7 +12,7 @@ The goal is to evaluate the performance of different CNN architectures in classi
 ---
 
 ## Dataset
-- Medical X-ray dataset (source provided in coursework).  
+- Medical X-ray dataset.  
 - 5 balanced categories representing different osteoarthritis stages.  
 - Images are grayscale but stored in 3-channel (RGB) format.  
 - Image sizes are consistent with no anomalies, moderate brightness levels.  
