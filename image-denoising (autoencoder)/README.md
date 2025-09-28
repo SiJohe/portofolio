@@ -32,11 +32,13 @@ The main goal is to reconstruct high-quality clean images from noisy inputs, whi
 3. **Modeling**  
    - **Baseline Model:**  
      - CNN autoencoder with Conv2D, MaxPooling, UpSampling.  
-     - Architecture shown in first diagram (≈74K parameters).  
+     - Architecture shown in first diagram (≈74K parameters).
+       ![Baseline Architecture](images/baseline.png)
 
    - **Modified Model:**  
      - Added **Conv2D** and **Conv2DTranspose** layers.  
-     - Architecture shown in second diagram (≈186K parameters).  
+     - Architecture shown in second diagram (≈186K parameters).
+       ![Modified Architecture](images/modified.png)
 
 4. **Evaluation Metrics**  
    - **MSE (Mean Squared Error)** → pixel-level reconstruction error.  
