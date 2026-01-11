@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KnowWaste - Register</title>
+
+  <!-- Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    rel="stylesheet"/>
+
+
+  <!-- pakai css yang sama dengan login -->
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/login-style.css" />
+
+  <script src="../js/register.js" defer></script>
+</head>
+<body class="register-page">
+  <div class="app app-login">
+
+    <main class="login-main">
+        <button class="back-btn-login" id="btn-back-login">
+            <span class="material-symbols-outlined">arrow_back</span>
+        </button>
+
+    
+      <!-- logo -->
+      <section class="login-logo-section">
+        <img src="../assets/KnowWaste.png" alt="KnowWaste" class="login-logo" />
+      </section>
+
+      <!-- form register -->
+      <section class="login-form-section">
+        <h1 class="login-title">Register</h1>
+
+        <form id="register-form" class="login-form">
+          <div class="input-group">
+            <input type="text" id="name" name="name" placeholder="Name" required />
+          </div>
+
+          <div class="input-group">
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required />
+          </div>
+
+          <div class="input-group">
+            <input type="email" id="email" name="email" placeholder="Email" required />
+          </div>
+
+          <div class="input-group">
+            <input type="password" id="password" name="password" placeholder="Password" required />
+          </div>
+
+          <button type="submit" class="login-submit-btn">
+            Sign Up
+          </button>
+        </form>
+
+        <p class="login-small-text">
+          Sudah punya akun?
+          <a href="login.html" class="login-link-green">Login</a>
+        </p>
+      </section>
+    </main>
+
+  </div>
+</body>
+</html>

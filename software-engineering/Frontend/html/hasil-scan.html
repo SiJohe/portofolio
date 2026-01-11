@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco Cycle - Hasil Scan</title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/scan-style.css" />
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <script src="../js/navbar.js" defer></script>
+  <script src="../js/hasil-scan.js" defer></script>
+</head>
+<body data-page="Scan">
+  <div class="app">
+
+    <!-- HERO sama dengan scan -->
+    <header class="hero hero-scan">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <button class="back-button" id="btn-back">
+          <span class="material-symbols-outlined">arrow_back</span>
+        </button>
+
+        <!-- boleh "AYO SCAN!" atau "HASIL SCAN" sesuai figma -->
+        <h1 class="scan-title">HASIL SCAN</h1>
+
+        <div class="hero-spacer"></div>
+      </div>
+    </header>
+
+    <main class="scan-main">
+      <section class="result-section">
+        <div class="result-image-wrapper">
+          <img id="result-image" alt="Hasil foto scan" />
+        </div>
+
+        <div class="result-info-card">
+          <p class="result-label-title">Kategori Sampah</p>
+          <h2 class="result-label" id="result-label">Plastik</h2>
+          <p class="result-description" id="result-description">
+            Keterangan singkat mengenai kategori sampah akan muncul di sini.
+          </p>
+
+          <button class="result-detail-btn" id="btn-detail">
+            Detail
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <div id="nav-root"></div>
+  </div>
+</body>
+</html>

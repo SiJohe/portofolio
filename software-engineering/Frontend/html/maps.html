@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco Cycle - Maps</title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/scan-style.css" />
+  <link rel="stylesheet" href="../css/maps-style.css" />
+
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <script src="../js/navbar.js" defer></script>
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    defer
+  ></script>
+
+  <script src="../js/maps.js" defer></script>
+</head>
+
+<body data-page="Maps">
+  <div class="app">
+
+    <!-- HERO -->
+    <header class="hero hero-common">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <button class="back-button" id="btn-back">
+          <span class="material-symbols-outlined">arrow_back</span>
+        </button>
+
+        <h1 class="scan-title">Lokasi Pembuangan Sampah</h1>
+        <div class="hero-spacer"></div>
+      </div>
+    </header>
+
+    <main class="maps-main">
+
+      <div class="maps-search-row">
+        <input id="maps-search" class="maps-search" placeholder="Search" />
+        <button class="maps-search-btn" id="btn-my-location" title="Lokasi saya">
+          <span class="material-symbols-outlined">my_location</span>
+        </button>
+      </div>
+
+      <section class="maps-map-wrap">
+        <div id="map" class="maps-map"></div>
+      </section>
+
+      <h2 class="maps-section-title">Lokasi Bak Sampah Terdekat</h2>
+
+      <section class="maps-list" id="maps-list"></section>
+
+      <p class="maps-empty hidden" id="maps-empty">Tidak ada lokasi yang cocok.</p>
+
+    </main>
+
+    <div id="nav-root"></div>
+  </div>
+</body>
+</html>

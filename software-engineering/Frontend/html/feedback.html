@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco Cycle - Feedback</title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/scan-style.css" />
+  <link rel="stylesheet" href="../css/feedback-style.css" />
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <script src="../js/navbar.js" defer></script>
+  <script src="../js/feedback.js" defer></script>
+</head>
+
+<body data-page="Profile">
+  <div class="app">
+
+    <!-- HERO -->
+    <header class="hero hero-feedback">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <button class="back-button" id="btn-back">
+          <span class="material-symbols-outlined">arrow_back</span>
+        </button>
+
+        <h1 class="scan-title">Feedback</h1>
+        <div class="hero-spacer"></div>
+      </div>
+    </header>
+
+    <main class="feedback-main">
+
+      <!-- gambar -->
+      <section class="feedback-hero-image">
+        <img src="../assets/logo-feedback.png" alt="Feedback" />
+      </section>
+
+      <!-- form -->
+      <form class="feedback-form" id="feedback-form">
+        <input
+          type="text"
+          id="fb-name"
+          class="fb-input"
+          placeholder="Nama"
+          autocomplete="name"
+        />
+
+        <!-- rating -->
+        <div class="fb-rating-box">
+          <p class="fb-label">Beri Rating Untuk Aplikasi Ini</p>
+
+          <div class="fb-stars" id="fb-stars" aria-label="Rating bintang">
+            <button type="button" class="fb-star" data-value="1" aria-label="1 star">★</button>
+            <button type="button" class="fb-star" data-value="2" aria-label="2 stars">★</button>
+            <button type="button" class="fb-star" data-value="3" aria-label="3 stars">★</button>
+            <button type="button" class="fb-star" data-value="4" aria-label="4 stars">★</button>
+            <button type="button" class="fb-star" data-value="5" aria-label="5 stars">★</button>
+          </div>
+
+          <input type="hidden" id="fb-rating" value="0" />
+        </div>
+
+        <textarea
+          id="fb-message"
+          class="fb-textarea"
+          placeholder="Masukan Pendapat Anda Ketika Menggunakan Aplikasi Ini....."
+          rows="7"
+        ></textarea>
+
+        <div class="fb-actions">
+          <button type="submit" class="fb-submit" id="fb-submit">Submit</button>
+          <p class="fb-status" id="fb-status"></p>
+        </div>
+      </form>
+    </main>
+
+    <div id="nav-root"></div>
+  </div>
+</body>
+</html>

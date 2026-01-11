@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco Cycle - Edukasi</title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/scan-style.css" />
+  <link rel="stylesheet" href="../css/edukasi-detail.css" />
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <script src="../js/navbar.js" defer></script>
+  <script src="../js/edukasi-detail.js" defer></script>
+</head>
+
+<body data-page="Home">
+  <div class="app">
+
+    <!-- HERO -->
+    <header class="hero hero-edu">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <button class="back-button" id="btn-back">
+          <span class="material-symbols-outlined">arrow_back</span>
+        </button>
+
+        <h1 class="scan-title" id="hero-title">Edukasi</h1>
+        <div class="hero-spacer"></div>
+      </div>
+    </header>
+
+    <main class="edu-detail-main">
+      <!-- COVER IMAGE -->
+      <section class="edu-cover">
+        <img id="cover-img" alt="Gambar kategori sampah" />
+      </section>
+
+      <!-- TITLE + SUMMARY -->
+      <section class="edu-header">
+        <h2 id="edu-title" class="edu-title">Limbah Plastik</h2>
+        <p id="edu-summary" class="edu-summary">
+          Ringkasan singkat akan tampil di sini.
+        </p>
+      </section>
+
+      <!-- 3R CARDS -->
+      <section class="edu-rrr">
+        <button class="rrr-card" data-acc="reduce">
+          <div class="rrr-left">
+            <span class="rrr-badge">Reduce</span>
+            <p class="rrr-desc" id="reduce-short">Tips mengurangi sampah.</p>
+          </div>
+          <span class="material-symbols-outlined rrr-arrow">expand_more</span>
+        </button>
+        <div class="rrr-panel" id="panel-reduce"></div>
+
+        <button class="rrr-card" data-acc="reuse">
+          <div class="rrr-left">
+            <span class="rrr-badge">Reuse</span>
+            <p class="rrr-desc" id="reuse-short">Tips memakai ulang sampah.</p>
+          </div>
+          <span class="material-symbols-outlined rrr-arrow">expand_more</span>
+        </button>
+        <div class="rrr-panel" id="panel-reuse"></div>
+
+        <button class="rrr-card" data-acc="recycle">
+          <div class="rrr-left">
+            <span class="rrr-badge">Recycle</span>
+            <p class="rrr-desc" id="recycle-short">Tips daur ulang sampah.</p>
+          </div>
+          <span class="material-symbols-outlined rrr-arrow">expand_more</span>
+        </button>
+        <div class="rrr-panel" id="panel-recycle"></div>
+      </section>
+
+      <!-- OPTIONAL NOTE -->
+      <section class="edu-note" id="edu-note" hidden>
+        <h3>Catatan</h3>
+        <p id="edu-note-text"></p>
+      </section>
+    </main>
+
+    <div id="nav-root"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,411 @@
+{
+  "plastik": {
+    "title": "Limbah Plastik",
+    "summary": "Plastik sulit terurai dan perlu dipilah berdasarkan jenisnya (misalnya PET, HDPE, PP) agar mudah diolah di rantai daur ulang.",
+    "image": "../assets/edukasi-plastik-2.jpg",
+    "reduce": [
+      "Bawa tumbler dan kotak makan sendiri",
+      "Bawa tas belanja lipat untuk menghindari kantong sekali pakai",
+      "Tolak sedotan, sendok garpu plastik, dan sachet jika tidak perlu",
+      "Pilih produk isi ulang (refill) seperti sabun dan sampo",
+      "Beli kemasan ukuran besar untuk mengurangi kemasan per porsi",
+      "Pilih produk dengan kemasan yang mudah didaur ulang (PET, HDPE, PP) dibanding multilayer",
+      "Bawa botol minum saat bepergian agar tidak beli botol sekali pakai",
+      "Gunakan sabun batang atau produk minim kemasan",
+      "Pilih belanja curah untuk bahan kering (beras, kacang) bila tersedia",
+      "Kurangi pembelian makanan dan minuman dengan tutup, segel, dan lapisan plastik berlebihan"
+    ],
+    "reuse": [
+      "Gunakan botol atau toples plastik tebal sebagai wadah penyimpanan",
+      "Pakai kembali kantong plastik untuk sampah kering atau belanja ulang",
+      "Manfaatkan kemasan plastik sebagai pot bibit atau pot tanaman kecil",
+      "Gunakan wadah plastik bekas sebagai organizer (alat tulis, baut, kabel)",
+      "Jadikan botol plastik sebagai penyiram tanaman sederhana",
+      "Gunakan bubble wrap atau plastik pengemas ulang untuk pengiriman barang",
+      "Simpan plastik ziplock untuk pemakaian berulang (setelah dibersihkan)",
+      "Gunakan kontainer plastik yang masih layak sebagai wadah bekal"
+    ],
+    "recycle": [
+      "Pilah plastik berdasarkan jenis bila memungkinkan (PET, HDPE, PP)",
+      "Pastikan plastik dalam kondisi bersih dan kering sebelum disetor",
+      "Lepas label kertas atau stiker jika mudah dilepas",
+      "Kempiskan botol agar hemat ruang penyimpanan",
+      "Pisahkan tutup botol jika diminta bank sampah setempat",
+      "Kumpulkan plastik bernilai (botol PET, jeriken HDPE) untuk bank sampah atau pengepul",
+      "Hindari mencampur plastik dengan sisa makanan atau minyak",
+      "Untuk plastik tipis dan multilayer, cek apakah ada drop point khusus",
+      "Simpan plastik daur ulang di tempat teduh agar tidak berjamur dan bau",
+      "Ikuti aturan penerimaan kategori plastik di bank sampah wilayahmu"
+    ],
+    "note": "Material bersih dan terpilah lebih mudah diserap industri daur ulang dan nilainya lebih baik."
+  },
+
+  "organik": {
+    "title": "Limbah Organik",
+    "summary": "Sisa makanan, daun, dan bahan organik bisa diolah kembali menjadi kompos atau pakan maggot sehingga mengurangi sampah residu.",
+    "image": "../assets/edukasi-organik-2.png",
+    "reduce": [
+      "Ambil porsi makan secukupnya agar tidak banyak sisa",
+      "Rencanakan menu mingguan untuk mengurangi bahan terbuang",
+      "Simpan bahan makanan sesuai jenisnya (kedap udara, suhu tepat)",
+      "Terapkan prinsip FIFO (yang lebih dulu masuk, lebih dulu dipakai)",
+      "Olah sisa bahan masak menjadi menu baru (misalnya sayur jadi tumisan)",
+      "Bekukan bahan yang cepat busuk (roti, daging, bumbu tertentu) bila memungkinkan",
+      "Belanja lebih sering dengan jumlah kecil dibanding stok berlebihan",
+      "Gunakan bagian yang bisa dimakan (batang brokoli, kulit tertentu) jika aman",
+      "Pilih buah dan sayur sesuai kebutuhan, hindari beli berlebihan saat promo",
+      "Kurangi makanan berkuah berminyak jika kamu kesulitan mengelola kompos di rumah"
+    ],
+    "reuse": [
+      "Manfaatkan sisa nasi menjadi nasi goreng atau olahan lain",
+      "Gunakan kulit sayur dan buah tertentu untuk kaldu (misalnya kulit bawang) bila higienis",
+      "Ampas kopi dan teh bisa dipakai sebagai campuran media tanam",
+      "Kulit jeruk dapat dijadikan pengharum alami atau pembersih ringan",
+      "Sisa roti dapat dijadikan tepung roti setelah dikeringkan",
+      "Daun kering dapat dipakai sebagai mulsa untuk tanaman",
+      "Air cucian beras bisa dipakai menyiram tanaman (secukupnya)",
+      "Sisa sayur mentah bisa dijadikan pakan ternak bila aman dan sesuai"
+    ],
+    "recycle": [
+      "Pisahkan organik sejak awal agar tidak tercampur plastik",
+      "Cacah organik agar lebih cepat terurai",
+      "Gunakan metode kompos sederhana (ember, takakura, drum komposter)",
+      "Seimbangkan bahan hijau (basah) dan bahan coklat (kering) agar tidak bau",
+      "Aduk kompos berkala untuk menjaga aerasi",
+      "Kontrol kelembapan, jangan terlalu basah atau terlalu kering",
+      "Gunakan biopori untuk daun dan sisa organik tertentu",
+      "Pertimbangkan budidaya maggot BSF untuk sisa dapur tertentu",
+      "Saring kompos matang sebelum dipakai sebagai pupuk",
+      "Gunakan kompos untuk tanaman rumah atau kebun kecil"
+    ],
+    "note": "Metode komposting rumah tangga, biopori, dan pemanfaatan maggot BSF adalah opsi umum untuk mengolah sampah organik lebih cepat dan mengurangi bau bila dilakukan benar."
+  },
+
+  "kaca": {
+    "title": "Limbah Kaca",
+    "summary": "Kaca dapat didaur ulang berulang kali, namun perlu ditangani aman karena mudah pecah dan berbahaya.",
+    "image": "../assets/edukasi-kaca.webp",
+    "reduce": [
+      "Pilih produk dengan kemasan kaca yang bisa dikembalikan atau diisi ulang",
+      "Kurangi membeli minuman botol sekali pakai",
+      "Pilih ukuran besar untuk mengurangi jumlah botol",
+      "Gunakan botol minum sendiri daripada membeli minuman kemasan",
+      "Prioritaskan wadah tahan pakai untuk bumbu dan bahan dapur",
+      "Hindari membeli dekorasi kaca sekali pakai yang mudah pecah",
+      "Pilih produk dengan kemasan sederhana tanpa banyak komponen",
+      "Beli kebutuhan dapur dalam kemasan curah bila tersedia",
+      "Gunakan gelas dan piring kaca tahan lama dibanding sekali pakai",
+      "Rawat botol kaca agar tidak sering pecah (hindari perubahan suhu ekstrem)"
+    ],
+    "reuse": [
+      "Gunakan botol kaca sebagai vas bunga",
+      "Toples kaca untuk menyimpan bahan kering (gula, kopi, pasta)",
+      "Botol kaca untuk infused water atau sirup rumahan",
+      "Toples kaca jadi wadah bumbu racik",
+      "Botol kaca sebagai wadah sabun cuci isi ulang (dengan pump)",
+      "Jadikan botol kaca sebagai dekorasi lampu (pastikan aman)",
+      "Toples kaca untuk fermentasi sederhana (misalnya acar) bila higienis",
+      "Gunakan botol kaca sebagai wadah koleksi koin atau barang kecil"
+    ],
+    "recycle": [
+      "Pisahkan kaca dari sampah lain sejak awal",
+      "Bilas dan keringkan botol atau toples sebelum disetor",
+      "Pisahkan kaca bening dan berwarna jika diminta bank sampah",
+      "Hindari mencampur kaca dengan keramik atau kaca tempered",
+      "Simpan kaca pecah dalam wadah aman dan beri label agar tidak melukai",
+      "Kumpulkan botol kaca utuh untuk nilai yang lebih baik",
+      "Lepas tutup logam atau plastik bila diminta",
+      "Setor ke bank sampah atau pengepul yang menerima kaca",
+      "Jangan buang kaca pecah tanpa pembungkus yang aman",
+      "Ikuti aturan penerimaan bank sampah setempat"
+    ],
+    "note": "Bank sampah umumnya menerima kaca botol dan toples, dengan pemilahan yang rapi."
+  },
+
+  "baterai": {
+    "title": "Limbah Baterai",
+    "summary": "Baterai termasuk limbah berbahaya (B3) dan tidak boleh dibuang ke sampah rumah tangga biasa.",
+    "image": "../assets/edukasi-baterai.jpg",
+    "reduce": [
+      "Gunakan baterai isi ulang untuk perangkat yang sering dipakai",
+      "Pilih perangkat dengan baterai tahan lama",
+      "Matikan perangkat saat tidak digunakan",
+      "Kurangi penggunaan mainan atau gadget yang boros baterai sekali pakai",
+      "Gunakan adaptor listrik langsung bila memungkinkan (misalnya mouse rechargeable)",
+      "Pilih lampu dan perangkat hemat energi",
+      "Hindari membeli baterai murah yang cepat habis",
+      "Gunakan powerbank rechargeable daripada baterai sekali pakai untuk kebutuhan darurat",
+      "Rawat perangkat agar tidak merusak baterai (hindari panas berlebih)",
+      "Kurangi stok baterai agar tidak kedaluwarsa dan bocor"
+    ],
+    "reuse": [
+      "Gunakan kembali baterai isi ulang yang masih berfungsi",
+      "Gabungkan baterai dengan level sama untuk perangkat tertentu (jangan campur baru dan lama)",
+      "Simpan baterai cadangan di tempat kering dan sejuk",
+      "Gunakan baterai yang masih tersisa untuk perangkat low drain (misalnya jam dinding) jika aman",
+      "Simpan baterai bekas terpisah dalam wadah tertutup sebelum disetor",
+      "Gunakan kotak khusus di rumah untuk menampung baterai bekas",
+      "Jika baterai remote masih bisa dipakai, pindahkan ke perangkat yang jarang digunakan",
+      "Hindari membongkar baterai untuk keperluan non teknis"
+    ],
+    "recycle": [
+      "Jangan buang baterai ke tempat sampah biasa",
+      "Kumpulkan baterai bekas dalam wadah khusus yang tidak mudah bocor",
+      "Tutup kutub baterai dengan selotip untuk mengurangi risiko korsleting (terutama lithium)",
+      "Pisahkan baterai lithium, alkaline, dan baterai kecil bila memungkinkan",
+      "Setorkan ke drop point e-waste atau pengelola limbah B3",
+      "Jangan membakar atau merendam baterai",
+      "Jika baterai bocor, gunakan sarung tangan dan bungkus rapat sebelum dipindahkan",
+      "Catat lokasi drop box terdekat (misalnya program e-waste daerah)",
+      "Simpan jauh dari anak kecil dan sumber panas",
+      "Ikuti aturan penerimaan dari pengelola karena baterai termasuk kategori khusus"
+    ],
+    "note": "Baterai bekas termasuk limbah B3 rumah tangga sehingga membutuhkan jalur pengumpulan khusus."
+  },
+
+  "kertas": {
+    "title": "Limbah Kertas",
+    "summary": "Kertas mudah didaur ulang jika bersih dan kering, namun kertas berminyak atau basah biasanya sulit diproses.",
+    "image": "../assets/edukasi-kertas.jpg",
+    "reduce": [
+      "Gunakan catatan digital bila memungkinkan",
+      "Cetak dua sisi kertas",
+      "Atur margin dan ukuran font agar hemat halaman",
+      "Kurangi penggunaan tisu, gunakan sapu tangan atau lap kain",
+      "Pilih struk digital daripada struk kertas",
+      "Batasi brosur dan selebaran yang tidak diperlukan",
+      "Gunakan papan tulis atau note reusable untuk pengingat",
+      "Berlangganan tagihan digital",
+      "Gunakan kertas daur ulang untuk kebutuhan tertentu",
+      "Simpan dokumen penting secara digital dengan backup"
+    ],
+    "reuse": [
+      "Gunakan kertas bekas satu sisi untuk catatan",
+      "Jadikan kertas bekas sebagai draf tugas atau coretan",
+      "Gunakan koran sebagai pembungkus barang",
+      "Gunakan kertas bekas untuk alas saat mengecat atau membersihkan",
+      "Buat origami atau kerajinan sederhana",
+      "Jadikan kertas sebagai pemisah agar barang tidak tergores",
+      "Gunakan map atau folder berkali kali",
+      "Pakai kardus kecil bekas sebagai organizer"
+    ],
+    "recycle": [
+      "Pisahkan kertas bersih dan kering",
+      "Lepas staples, klip, dan plastik laminasi jika ada",
+      "Pisahkan karton tebal dari kertas tipis bila diminta",
+      "Ikuti aturan bank sampah tentang kertas HVS, koran, majalah",
+      "Hindari kertas yang terkena minyak, lilin, atau makanan",
+      "Keringkan kertas yang lembap jika masih layak",
+      "Ikat atau rapikan agar mudah ditimbang",
+      "Jangan campur dengan tisu bekas atau popok",
+      "Setor ke bank sampah atau pengepul secara berkala",
+      "Simpan kertas jauh dari air agar tidak jamuran"
+    ],
+    "note": "Bank sampah umumnya menerima kertas seperti koran, majalah, kardus, dan HVS dalam kondisi bersih."
+  },
+
+  "logam": {
+    "title": "Limbah Logam",
+    "summary": "Logam seperti aluminium dan besi bernilai tinggi untuk daur ulang, terutama jika bersih dan tidak tercampur bahan lain.",
+    "image": "../assets/edukasi-logam.webp",
+    "reduce": [
+      "Kurangi membeli minuman kaleng, gunakan botol minum sendiri",
+      "Pilih produk isi ulang untuk mengurangi kemasan kaleng",
+      "Pilih peralatan makan tahan lama, bukan sekali pakai",
+      "Perbaiki alat logam yang rusak sebelum membeli baru",
+      "Pilih wadah masak berkualitas agar awet bertahun tahun",
+      "Beli bahan makanan dalam kemasan besar untuk mengurangi banyak kaleng",
+      "Kurangi produk aerosol bila ada alternatifnya",
+      "Pilih dekorasi rumah yang tahan lama, bukan tren sesaat",
+      "Gunakan isi ulang gas portable bila memungkinkan",
+      "Hindari membeli barang kecil logam sekali pakai (gimmick) yang cepat jadi sampah"
+    ],
+    "reuse": [
+      "Kaleng jadi tempat alat tulis atau organizer",
+      "Kaleng jadi pot tanaman (buat lubang drainase bila perlu)",
+      "Wadah logam untuk menyimpan paku, baut, dan perkakas",
+      "Gunakan ulang kotak biskuit kaleng untuk penyimpanan",
+      "Manfaatkan sendok garpu logam bekas untuk kerajinan",
+      "Gunakan pot atau loyang lama untuk fungsi non makanan (misalnya wadah cat)",
+      "Gunakan kembali hanger logam yang masih bagus",
+      "Donasikan peralatan dapur logam yang masih layak"
+    ],
+    "recycle": [
+      "Bilas kaleng dari sisa makanan dan keringkan",
+      "Kempiskan kaleng agar hemat ruang",
+      "Pisahkan aluminium dan besi jika diminta",
+      "Jangan campur logam dengan plastik atau sisa organik",
+      "Setor ke bank sampah atau pengepul logam",
+      "Pisahkan tutup logam kecil dan kumpulkan dalam satu wadah",
+      "Hindari kaleng yang terkontaminasi bahan kimia tanpa penanganan khusus",
+      "Simpan logam dalam kondisi kering agar tidak berkarat parah",
+      "Kelompokkan berdasarkan jenis untuk nilai jual lebih baik",
+      "Ikuti aturan penerimaan bank sampah setempat"
+    ],
+    "note": "Logam termasuk kategori yang sering diterima bank sampah karena nilai jualnya relatif baik."
+  },
+
+  "karton": {
+    "title": "Limbah Karton",
+    "summary": "Karton adalah kertas tebal dari kemasan, mudah didaur ulang jika kering dan tidak berminyak.",
+    "image": "../assets/edukasi-karton.jpg",
+    "reduce": [
+      "Pilih belanja dengan kemasan minimalis",
+      "Gabungkan pesanan online agar tidak banyak dus",
+      "Pilih opsi pengiriman minim kemasan jika tersedia",
+      "Gunakan ulang dus untuk pengiriman balik atau penyimpanan",
+      "Kurangi membeli produk dengan kotak berlapis",
+      "Pilih produk refill daripada box baru",
+      "Beli dalam jumlah besar untuk mengurangi banyak kotak kecil",
+      "Pilih brand yang memakai karton daur ulang bila memungkinkan",
+      "Hindari kemasan karton yang dilapisi plastik berlebihan",
+      "Gunakan wadah penyimpanan permanen agar tidak butuh banyak box sekali pakai"
+    ],
+    "reuse": [
+      "Gunakan dus sebagai kotak penyimpanan",
+      "Buat sekat laci dari karton",
+      "Gunakan karton sebagai alas pelindung saat kerja atau mengecat",
+      "Gunakan karton untuk kerajinan atau maket",
+      "Buat tempat file atau arsip sederhana",
+      "Gunakan karton sebagai pelindung barang pecah belah saat pindahan",
+      "Buat mainan edukasi anak dari karton",
+      "Gunakan karton sebagai alas kompos kering (bahan coklat) bila tanpa tinta berlebihan"
+    ],
+    "recycle": [
+      "Lepas lakban dan plastik pembungkus jika memungkinkan",
+      "Lipat karton agar hemat ruang",
+      "Pastikan karton dalam kondisi kering dan bersih",
+      "Pisahkan karton berminyak atau terkena makanan",
+      "Ikuti aturan bank sampah terkait kardus tebal dan tipis",
+      "Ikat atau rapikan agar mudah ditimbang",
+      "Simpan karton jauh dari air dan lembap",
+      "Pisahkan karton berlapis foil atau laminasi jika tidak diterima",
+      "Setor secara berkala ke bank sampah",
+      "Jika karton basah, keringkan dulu bila masih layak"
+    ],
+    "note": "Bank sampah umumnya menerima kardus dan karton kemasan dalam kondisi kering."
+  },
+
+  "sepatu": {
+    "title": "Limbah Sepatu",
+    "summary": "Sepatu biasanya gabungan kain, karet, lem, dan busa sehingga tidak semua bisa didaur ulang lewat jalur umum.",
+    "image": "../assets/edukasi-sepatu.jpg",
+    "reduce": [
+      "Beli sepatu berkualitas agar awet",
+      "Rawat sepatu dengan pembersihan rutin",
+      "Gunakan satu sepatu untuk fungsi spesifik agar tidak cepat rusak (olahraga vs harian)",
+      "Perbaiki sol atau jahitan sebelum membeli baru",
+      "Hindari beli sepatu impulsif karena tren",
+      "Gunakan pelindung hujan atau semprot anti air agar sepatu tahan lama",
+      "Gunakan insole yang bisa diganti untuk memperpanjang umur",
+      "Pilih model yang timeless agar dipakai lama",
+      "Gunakan sistem rotasi pemakaian agar tidak cepat aus",
+      "Pilih merek yang menyediakan layanan perbaikan atau take back bila ada"
+    ],
+    "reuse": [
+      "Donasikan sepatu yang masih layak pakai",
+      "Jual preloved jika kondisinya masih bagus",
+      "Gunakan sepatu lama untuk kegiatan kasar (kebun, kerja lapangan)",
+      "Ambil tali sepatu untuk dipakai ulang",
+      "Gunakan bagian karet sebagai penahan pintu atau anti slip sederhana",
+      "Jadikan sepatu anak kecil sebagai pot kecil (opsional, jika aman)",
+      "Gunakan box sepatu untuk penyimpanan ulang",
+      "Buat kerajinan dari bahan sepatu yang masih bisa dimanfaatkan"
+    ],
+    "recycle": [
+      "Pisahkan sepatu yang masih layak pakai untuk donasi (lebih baik daripada daur ulang)",
+      "Cek apakah ada program pengumpulan sepatu di komunitas atau brand tertentu",
+      "Bersihkan sepatu sebelum diserahkan agar tidak berbau dan berjamur",
+      "Pisahkan sepatu berbahan kain dominan vs karet dominan jika diminta",
+      "Untuk sepatu yang rusak berat, kategorikan sebagai residu bila tidak ada jalur khusus",
+      "Kumpulkan beberapa pasang sebelum mengirim ke program daur ulang (efisiensi)",
+      "Hindari membakar sepatu karena menghasilkan asap berbahaya",
+      "Simpan sepatu rusak dalam kantong tertutup jika menunggu pengumpulan",
+      "Ambil komponen yang bisa didaur ulang terpisah (misalnya logam kecil) bila memungkinkan",
+      "Ikuti aturan penerimaan pengolah karena sepatu termasuk material campuran"
+    ],
+    "note": "Karena material sepatu campuran, opsi terbaik seringkali adalah perpanjang umur pakai dan donasi jika masih layak."
+  },
+
+  "tekstil": {
+    "title": "Limbah Tekstil",
+    "summary": "Tekstil bisa dari serat alami atau sintetis. Perpanjang umur pakai adalah strategi paling efektif sebelum daur ulang.",
+    "image": "../assets/edukasi-tekstil.jpg",
+    "reduce": [
+      "Beli pakaian sesuai kebutuhan, bukan tren",
+      "Pilih bahan dan jahitan yang awet",
+      "Rawat pakaian sesuai label (suhu cuci, jemur) agar tahan lama",
+      "Kurangi pembelian fast fashion",
+      "Bangun capsule wardrobe agar kombinasi outfit banyak tanpa beli banyak baju",
+      "Pilih warna netral yang mudah dipadukan",
+      "Hindari sekali pakai untuk acara, sewa atau pinjam bila memungkinkan",
+      "Perbaiki kancing dan jahitan kecil agar tidak cepat dibuang",
+      "Jangan sering overdry di mesin pengering bila membuat kain cepat rusak",
+      "Beli secondhand untuk mengurangi produksi baru"
+    ],
+    "reuse": [
+      "Donasikan pakaian yang masih layak",
+      "Jual preloved atau tukar baju dengan teman",
+      "Ubah baju menjadi lap kain atau kain pel",
+      "Jadikan kaos lama sebagai kain poles atau kain bersih bersih",
+      "Upcycle jadi tote bag sederhana dari baju bekas",
+      "Ubah jeans rusak jadi pouch atau tempat pensil",
+      "Gunakan potongan kain untuk stuffing bantal kecil",
+      "Jadikan kain sebagai pembungkus barang (gaya furoshiki)"
+    ],
+    "recycle": [
+      "Pisahkan tekstil bersih dan kering",
+      "Pisahkan kain alami dan sintetis jika program daur ulang membedakan",
+      "Cuci dan keringkan sebelum diserahkan agar tidak berjamur",
+      "Hindari mencampur tekstil dengan sampah basah",
+      "Kumpulkan dalam satu tas khusus tekstil",
+      "Cari bank sampah atau komunitas yang menerima pakaian untuk daur ulang",
+      "Pisahkan aksesoris besar (resleting, kancing logam) bila diminta",
+      "Prioritaskan daur ulang untuk kain yang sudah tidak layak pakai",
+      "Untuk kain sangat kotor berminyak, pertimbangkan sebagai residu",
+      "Ikuti aturan penerimaan karena tekstil tidak selalu diterima bank sampah umum"
+    ],
+    "note": "Mengurangi pembelian dan memperpanjang umur pakai biasanya memberi dampak terbesar dibanding langsung membuang."
+  },
+
+  "campuran": {
+        "title": "Limbah Campuran",
+        "summary": "Limbah campuran adalah sampah yang tidak termasuk dalam kategori utama lain karena bentuk, bahan, atau kondisinya tidak jelas, rusak, atau tidak dapat terdeteksi sebagai jenis tertentu.",
+        "image": "../assets/edukasi-campuran.jpg",
+        "reduce": [
+        "Pilih produk dengan bahan yang jelas dan mudah dikenali (misalnya satu jenis material)",
+        "Hindari produk dengan desain kompleks yang sulit dipilah setelah rusak",
+        "Kurangi pembelian barang sekali pakai yang tidak umum didaur ulang",
+        "Pilih barang dengan kualitas baik agar tidak cepat rusak dan menjadi residu",
+        "Hindari kemasan unik atau dekoratif berlebihan yang sulit dikategorikan",
+        "Kurangi penggunaan produk yang cepat berubah bentuk saat kotor atau basah",
+        "Pilih produk dengan label material yang jelas",
+        "Utamakan produk yang punya jalur daur ulang yang sudah umum",
+        "Kurangi membeli barang kecil tanpa fungsi jangka panjang",
+        "Evaluasi jenis sampah yang sering tidak terklasifikasi lalu ubah kebiasaan belanja"
+        ],
+        "reuse": [
+        "Gunakan kembali barang yang masih berfungsi meskipun bentuknya tidak sempurna",
+        "Manfaatkan benda sisa sebagai alat bantu non konsumsi (penahan pintu, alas, spacer)",
+        "Gunakan wadah atau barang campuran untuk penyimpanan non makanan",
+        "Jadikan barang rusak ringan sebagai alat praktik atau eksperimen",
+        "Manfaatkan benda bekas sebagai bahan prakarya sederhana",
+        "Gunakan kembali kemasan atau wadah unik untuk fungsi alternatif",
+        "Pisahkan bagian yang masih bisa dimanfaatkan sebelum dibuang",
+        "Gunakan kembali barang campuran untuk kebutuhan sementara"
+        ],
+        "recycle": [
+        "Periksa apakah benda memiliki bagian yang bisa dipisahkan secara manual",
+        "Pisahkan komponen yang jelas jenisnya (logam kecil, plastik keras) sebelum dibuang",
+        "Bersihkan bagian yang akan disalurkan ke jalur daur ulang",
+        "Kirim komponen tertentu ke drop point khusus bila tersedia",
+        "Gunakan kategori residu hanya jika benar benar tidak bisa dipilah",
+        "Simpan limbah campuran dalam kondisi kering",
+        "Jangan mencampur limbah campuran dengan sampah organik",
+        "Ikuti aturan pengelolaan sampah daerah setempat",
+        "Hindari pembakaran karena berisiko menghasilkan zat berbahaya",
+        "Catat jenis benda yang sering masuk kategori campuran sebagai evaluasi kebiasaan"
+        ],
+        "note": "Kategori campuran berfungsi sebagai kelas sisa untuk benda yang tidak dapat diidentifikasi ke kategori lain, sehingga pencegahan dari sumber adalah langkah paling efektif."
+    }
+}

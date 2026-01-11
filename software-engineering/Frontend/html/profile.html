@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco Cycle - Profile</title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/scan-style.css" />
+  <link rel="stylesheet" href="../css/profile-style.css" />
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <script src="../js/navbar.js" defer></script>
+  <script src="../js/profile.js" defer></script>
+</head>
+
+<body data-page="Profile">
+  <div class="app">
+
+    <!-- HERO mirip home/scan -->
+    <header class="hero hero-profile">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <button class="back-button" id="btn-back">
+          <span class="material-symbols-outlined">arrow_back</span>
+        </button>
+
+        <h1 class="scan-title">Profile</h1>
+        <div class="hero-spacer"></div>
+      </div>
+    </header>
+
+    <main class="profile-main">
+
+      <!-- avatar + nama -->
+      <section class="profile-header">
+        <img id="profile-avatar"
+             class="profile-avatar"
+             src="../assets/cat-profile.jpg"
+             alt="Foto Profil" />
+
+        <!-- guest -->
+        <div class="profile-name-box user-guest">
+          <h2 class="profile-name" id="profile-name">Guest</h2>
+          <div class="profile-auth-actions">
+            <!-- <button class="profile-auth-btn" id="btn-login">Login</button>
+            <button class="profile-auth-btn outline" id="btn-register">Register</button> -->
+          </div>
+        </div>
+
+        <!-- logged -->
+        <div class="profile-name-box user-logged hidden">
+          <h2 class="profile-name" id="profile-name-logged">User</h2>
+        </div>
+      </section>
+
+      <!-- feedback -->
+      <section class="profile-section">
+        <h3 class="profile-section-title">feedback</h3>
+
+        <button class="profile-card" data-target="feedback.html">
+          <div class="profile-card-left">
+            <span class="material-symbols-outlined">group</span>
+            <div class="profile-card-text">
+              <p class="profile-card-title">Masukan Feedback Untuk Aplikasi Ini</p>
+              <p class="profile-card-sub">Feedback</p>
+            </div>
+          </div>
+          <span class="material-symbols-outlined">chevron_right</span>
+        </button>
+      </section>
+
+      <!-- setting -->
+      <section class="profile-section">
+        <h3 class="profile-section-title">Setting</h3>
+
+        <button class="profile-card" data-target="notification.html">
+          <div class="profile-card-left">
+            <span class="material-symbols-outlined">Notifications</span>
+            <div class="profile-card-text">
+              <p class="profile-card-title">Notifikasi</p>
+              <p class="profile-card-sub">Notification</p>
+            </div>
+          </div>
+          <span class="material-symbols-outlined">chevron_right</span>
+        </button>
+
+        <button class="profile-card" data-target="profile.html">
+          <div class="profile-card-left">
+            <span class="material-symbols-outlined">Person</span>
+            <div class="profile-card-text">
+              <p class="profile-card-title">Akun</p>
+              <p class="profile-card-sub">Privacy</p>
+            </div>
+          </div>
+          <span class="material-symbols-outlined">chevron_right</span>
+        </button>
+
+        <button class="profile-card" data-target="profile.html">
+          <div class="profile-card-left">
+            <span class="material-symbols-outlined">cloud</span>
+            <div class="profile-card-text">
+              <p class="profile-card-title">Penyimpanan</p>
+              <p class="profile-card-sub">Storage</p>
+            </div>
+          </div>
+          <span class="material-symbols-outlined">chevron_right</span>
+        </button>
+
+        <!-- setelah card Penyimpanan -->
+        <button class="profile-logout-btn hidden" id="btn-logout" type="button">
+          Log out
+        </button>
+
+      </section>
+    </main>
+
+    <div id="nav-root"></div>
+  </div>
+</body>
+</html>

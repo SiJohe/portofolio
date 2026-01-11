@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KnowWaste - Login</title>
+
+  <!-- Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+  rel="stylesheet"/>
+
+
+  <!-- global dan login css -->
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/login-style.css" />
+
+  <script src="../js/login-user.js" defer></script>
+</head>
+<body data-page="Login">
+  <div class="app app-login">
+
+    <!-- konten -->
+    <main class="login-main">
+      <button class="back-btn-login" id="btn-back-login">
+        <span class="material-symbols-outlined">arrow_back</span>
+      </button>
+
+
+      <!-- logo -->
+      <section class="login-logo-section">
+        <img src="../assets/KnowWaste.png" alt="KnowWaste" class="login-logo" />
+      </section>
+
+      <!-- form -->
+      <section class="login-form-section">
+        <h1 class="login-title">Login</h1>
+
+        <form id="login-form" class="login-form">
+          <div class="input-group">
+            <input type="email" id="email" name="email" placeholder="Email" required />
+          </div>
+
+          <div class="input-group">
+            <input type="password" id="password" name="password" placeholder="Password" required />
+          </div>
+
+          <div class="login-row">
+            <button type="button" class="forgot-btn" id="btn-forgot">
+              Forgot Password
+            </button>
+          </div>
+
+          <button type="submit" class="login-submit-btn">
+            Login
+          </button>
+        </form>
+
+        <p class="login-small-text">
+          Belum Memiliki akun?
+          <a href="register.html" class="login-link-green">Sign Up For Free</a>
+        </p>
+
+        <!-- social login -->
+        <div class="social-row">
+          <button class="social-btn">
+            <img src="../assets/logo-fb.png" alt="Facebook" />
+          </button>
+          <button class="social-btn">
+            <img src="../assets/logo-ig.webp" alt="Instagram" />
+          </button>
+          <button class="social-btn">
+            <img src="../assets/logo-google.webp" alt="Google" />
+          </button>
+        </div>
+      </section>
+    </main>
+
+  </div>
+</body>
+</html>

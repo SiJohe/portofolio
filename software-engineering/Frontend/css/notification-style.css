@@ -1,0 +1,182 @@
+.hero-notif {
+  position: relative;
+  height: 100px;
+  background-image: url("../assets/BG_bar_atas.png"); /* sama seperti yang lain */
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+
+/* tidak ada overlay */
+
+.hero-notif .hero-content {
+  position: relative;
+  height: 100%;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notif-main {
+  flex: 1;
+  padding: 16px 16px 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.notif-card {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 10px 18px rgba(0,0,0,0.06);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.notif-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.notif-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.notif-sub {
+  margin: 3px 0 0;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.notif-hint {
+  margin: 0;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* form */
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-label {
+  font-size: 12px;
+  color: #111827;
+  font-weight: 600;
+  min-width: 70px;
+}
+
+.form-input {
+  flex: 1;
+  border-radius: 10px;
+  border: 1.5px solid #7EC243;
+  padding: 10px 12px;
+  font-size: 12px;
+  outline: none;
+  font-family: inherit;
+  background: #ffffff;
+}
+
+/* days */
+.days {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.day-btn {
+  border: 1.5px solid #7EC243;
+  background: #ffffff;
+  color: #7EC243;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.day-btn.is-active {
+  background: #7EC243;
+  color: #ffffff;
+}
+
+/* buttons */
+.notif-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.notif-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  background: #43A047;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.notif-btn-outline {
+  border-radius: 10px;
+  padding: 10px 14px;
+  border: 1.5px solid #7EC243;
+  background: #ffffff;
+  color: #7EC243;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 26px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #d1d5db;
+  transition: 0.2s;
+  border-radius: 999px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  top: 3px;
+  background-color: white;
+  transition: 0.2s;
+  border-radius: 50%;
+}
+
+.switch input:checked + .slider {
+  background-color: #43A047;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(22px);
+}

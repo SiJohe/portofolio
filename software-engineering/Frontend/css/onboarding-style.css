@@ -1,0 +1,107 @@
+.onboarding {
+  background: #ffffff;
+}
+
+.ob-main {
+  min-height: 100vh;
+  padding: 24px 18px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ob-slider {
+  width: 100%;
+  max-width: 390px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ob-slide {
+  display: none;
+  text-align: center;
+}
+
+.ob-slide.is-active {
+  display: block;
+}
+
+.ob-illustration {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.ob-illustration img {
+  width: min(86%, 320px);
+  height: auto;
+  display: block;
+}
+
+.ob-title {
+  margin: 22px 0 10px;
+  font-size: 26px;
+  font-weight: 800;
+  color: #111827;
+}
+
+.ob-desc {
+  margin: 0 auto;
+  max-width: 330px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+.ob-dots {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0 16px;
+}
+
+.ob-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #d1d5db;
+}
+
+.ob-dot.is-active {
+  background: #7ec243;
+  width: 22px;
+}
+
+.ob-actions {
+  width: 100%;
+  max-width: 390px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.ob-next {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: #7ec243;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.ob-skip {
+  border: none;
+  background: transparent;
+  color: #111827;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}

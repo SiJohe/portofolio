@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco Cycle - Edukasi</title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/scan-style.css" />
+  <link rel="stylesheet" href="../css/edukasi-style.css" />
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <script src="../js/navbar.js" defer></script>
+  <script src="../js/edukasi.js" defer></script>
+</head>
+<body data-page="Home">
+  <div class="app">
+
+    <!-- HERO EDUKASI (mirip scan) -->
+    <header class="hero hero-edu">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <button class="back-button" id="btn-back-edukasi">
+          <span class="material-symbols-outlined">arrow_back</span>
+        </button>
+
+        <h1 class="scan-title">Edukasi</h1>
+
+        <div class="hero-spacer"></div>
+      </div>
+    </header>
+
+    <main class="edu-main">
+      <!-- CAROUSEL EDUKASI -->
+      <section class="edu-carousel-section">
+        <div class="edu-carousel">
+          <div class="edu-carousel-track">
+            <!-- slide 1 -->
+            <article class="edu-slide edu-slide-1" data-index="0">
+              <div class="edu-slide-overlay"></div>
+              <div class="edu-slide-content">
+                <p class="edu-slide-quote">“Yuk Pilah Sampah dengan Benar!"</p>
+                <p class="edu-slide-subtitle">
+                  Ubah kebiasaan kecil jadi dampak besar
+                </p>
+                <button class="edu-slide-btn">Pelajari Sekarang</button>
+              </div>
+            </article>
+
+            <!-- slide 2 -->
+            <article class="edu-slide edu-slide-2" data-index="1">
+              <div class="edu-slide-overlay"></div>
+              <div class="edu-slide-content">
+                <p class="edu-slide-quote">Kenali Jenis Sampahmu</p>
+                <p class="edu-slide-subtitle">
+                  Mulai dari Hal Sederhana
+                </p>
+                <!-- <button class="edu-slide-btn">Lihat Tips Plastik</button> -->
+              </div>
+            </article>
+
+            <!-- slide 3 -->
+            <article class="edu-slide edu-slide-3" data-index="2">
+              <div class="edu-slide-overlay"></div>
+              <div class="edu-slide-content">
+                <p class="edu-slide-quote">Buang dengan Benar</p>
+                <p class="edu-slide-subtitle">
+                  Satu Gerakan, Banyak Manfaat
+                </p>
+                <!-- <button class="edu-slide-btn">Mulai dari Dapur</button> -->
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="edu-carousel-dots">
+          <button class="edu-dot active" data-index="0"></button>
+          <button class="edu-dot" data-index="1"></button>
+          <button class="edu-dot" data-index="2"></button>
+        </div>
+      </section>
+
+      <!-- GRID KATEGORI SAMPAH -->
+      <section class="edu-categories-section">
+        <div class="edu-card-grid">
+          <!-- contoh kategori, silakan ganti sesuai model kamu -->
+
+          <article class="edu-card">
+            <img src="../assets/edukasi-plastik.webp" alt="Limbah Plastik" class="edu-card-img" />
+            <div class="edu-card-body">
+              <h3 class="edu-card-title">Limbah Plastik</h3>
+              <button class="edu-card-btn" data-target="edukasi-detail.html?cat=plastik">
+                Pelajari Sekarang
+              </button>
+            </div>
+          </article>
+
+          <article class="edu-card">
+            <img src="../assets/edukasi-organik.jpeg" alt="Limbah Organik" class="edu-card-img" />
+            <div class="edu-card-body">
+              <h3 class="edu-card-title">Limbah Organik</h3>
+              <button class="edu-card-btn" data-target="edukasi-detail.html?cat=organik">
+                Pelajari Sekarang
+              </button>
+            </div>
+          </article>
+
+          <article class="edu-card">
+            <img src="../assets/edukasi-kaca.webp" alt="Limbah Kaca" class="edu-card-img" />
+            <div class="edu-card-body">
+              <h3 class="edu-card-title">Limbah Kaca</h3>
+              <button class="edu-card-btn" data-target="edukasi-detail.html?cat=kaca">
+                Pelajari Sekarang
+              </button>
+            </div>
+          </article>
+
+          <article class="edu-card">
+            <img src="../assets/edukasi-baterai.jpg" alt="Limbah Baterai" class="edu-card-img" />
+            <div class="edu-card-body">
+              <h3 class="edu-card-title">Limbah Baterai</h3>
+              <button class="edu-card-btn" data-target="edukasi-detail.html?cat=baterai">
+                Pelajari Sekarang
+              </button>
+            </div>
+          </article>
+
+          <article class="edu-card">
+            <img src="../assets/edukasi-kertas.jpg" alt="Limbah Kertas" class="edu-card-img" />
+            <div class="edu-card-body">
+              <h3 class="edu-card-title">Limbah Kertas</h3>
+              <button class="edu-card-btn" data-target="edukasi-detail.html?cat=kertas">
+                Pelajari Sekarang
+              </button>
+            </div>
+          </article>
+
+          <article class="edu-card">
+            <img src="../assets/edukasi-logam.webp" alt="Limbah Logam" class="edu-card-img" />
+            <div class="edu-card-body">
+              <h3 class="edu-card-title">Limbah Logam</h3>
+              <button class="edu-card-btn" data-target="edukasi-detail.html?cat=logam">
+                Pelajari Sekarang
+              </button>
+            </div>
+          </article>
+
+          <article class="edu-card">
+            <img src="../assets/edukasi-karton.jpg" alt="Limbah Karton" class="edu-card-img" />
+            <div class="edu-card-body">
+              <h3 class="edu-card-title">Limbah Karton</h3>
+              <button class="edu-card-btn" data-target="edukasi-detail.html?cat=karton">
+                Pelajari Sekarang
+              </button>
+            </div>
+          </article>
+
+          <article class="edu-card">
+            <img src="../assets/edukasi-sepatu.jpg" alt="Limbah Sepatu" class="edu-card-img" />
+            <div class="edu-card-body">
+              <h3 class="edu-card-title">Limbah Sepatu</h3>
+              <button class="edu-card-btn" data-target="edukasi-detail.html?cat=sepatu">
+                Pelajari Sekarang
+              </button>
+            </div>
+          </article>
+
+          <article class="edu-card">
+            <img src="../assets/edukasi-tekstil.jpg" alt="Limbah Tekstil" class="edu-card-img" />
+            <div class="edu-card-body">
+              <h3 class="edu-card-title">Limbah Tekstil</h3>
+              <button class="edu-card-btn" data-target="edukasi-detail.html?cat=tekstil">
+                Pelajari Sekarang
+              </button>
+            </div>
+          </article>
+
+          <article class="edu-card">
+            <img src="../assets/edukasi-campuran.jpg" alt="Limbah Campuran" class="edu-card-img" />
+            <div class="edu-card-body">
+              <h3 class="edu-card-title">Limbah Campuran</h3>
+              <button class="edu-card-btn" data-target="edukasi-detail.html?cat=campuran">
+                Pelajari Sekarang
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div id="nav-root"></div>
+  </div>
+</body>
+</html>

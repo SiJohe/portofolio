@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco Cycle - Notification</title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/scan-style.css" />
+  <link rel="stylesheet" href="../css/notification-style.css" />
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <script src="../js/navbar.js" defer></script>
+  <script src="../js/notification.js" defer></script>
+</head>
+
+<body data-page="Profile">
+  <div class="app">
+
+    <!-- HERO tanpa overlay -->
+    <header class="hero hero-notif">
+      <div class="hero-overlay">
+        <div class="hero-content">
+            <button class="back-button" id="btn-back">
+            <span class="material-symbols-outlined">arrow_back</span>
+            </button>
+
+            <h1 class="scan-title">Notification</h1>
+            <div class="hero-spacer"></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="notif-main">
+
+      <section class="notif-card">
+        <div class="notif-row">
+          <div>
+            <p class="notif-title">Aktifkan Notifikasi</p>
+            <p class="notif-sub">Izinkan browser menampilkan pengingat.</p>
+          </div>
+
+          <label class="switch">
+            <input type="checkbox" id="toggle-enabled" />
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <button class="notif-btn-outline" id="btn-permission">
+          Minta Izin Notifikasi
+        </button>
+
+        <p class="notif-hint" id="perm-status">Status izin: belum dicek</p>
+      </section>
+
+      <section class="notif-card">
+        <p class="notif-title">Pengingat Harian</p>
+        <p class="notif-sub">Atur jam dan hari pengingat.</p>
+
+        <div class="form-row">
+          <label class="form-label">Jam</label>
+          <input type="time" id="reminder-time" class="form-input" value="20:00" />
+        </div>
+
+        <div class="days">
+          <button type="button" class="day-btn is-active" data-day="mon">Sen</button>
+          <button type="button" class="day-btn is-active" data-day="tue">Sel</button>
+          <button type="button" class="day-btn is-active" data-day="wed">Rab</button>
+          <button type="button" class="day-btn is-active" data-day="thu">Kam</button>
+          <button type="button" class="day-btn is-active" data-day="fri">Jum</button>
+          <button type="button" class="day-btn" data-day="sat">Sab</button>
+          <button type="button" class="day-btn" data-day="sun">Min</button>
+        </div>
+
+        <div class="form-row">
+          <label class="form-label">Jenis Pengingat</label>
+          <select id="reminder-type" class="form-input">
+            <option value="sort_waste">Pilah sampah</option>
+            <option value="scan_waste">Scan sampah</option>
+            <option value="go_to_drop">Buang ke lokasi terdekat</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label class="form-label">Pesan</label>
+          <input
+            type="text"
+            id="reminder-message"
+            class="form-input"
+            placeholder="Contoh: Jangan lupa pilah sampah hari ini ya"
+          />
+        </div>
+
+        <div class="notif-actions">
+          <button class="notif-btn" id="btn-save">Simpan</button>
+          <button class="notif-btn-outline" id="btn-test">Test Notifikasi</button>
+        </div>
+
+        <p class="notif-hint" id="save-status"></p>
+      </section>
+
+    </main>
+
+    <div id="nav-root"></div>
+  </div>
+</body>
+</html>

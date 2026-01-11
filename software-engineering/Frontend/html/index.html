@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco Cycle Home</title>
+
+  <!-- Font contoh, silakan sesuaikan dengan Figma -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body data-page="Home">
+  <div class="app">
+    <!-- HERO / HEADER -->
+    <header class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-inner">
+        <!-- Status bar dummy, opsional -->
+        <!-- <div class="status-bar">
+          <span>9:41</span>
+          <div class="status-icons">
+            <span class="status-dot"></span>
+            <span class="status-dot"></span>
+            <span class="status-dot"></span>
+          </div>
+        </div> -->
+
+        <div class="hero-top">
+        <!-- Kiri: bisa berganti antara "logged in" dan "guest" -->
+            <div class="hero-left">
+                <!-- Setelah login -->
+                <div class="user-info user-info-logged">
+                <img src="../assets/cat-profile.jpg" alt="Avatar" class="avatar" />
+                <div>
+                    <p class="hello-text">Hi Juleha</p>
+                    <p class="welcome-text">WELCOME TO ECO CYCLE</p>
+                </div>
+                </div>
+
+                <!-- Sebelum login -->
+                <div class="user-info-guest">
+                <button class="auth-btn auth-btn-primary" id="btn-login">
+                    Login
+                </button>
+                <button class="auth-btn auth-btn-outline" id="btn-register">
+                    Register
+                </button>
+                </div>
+            </div>
+
+            <!-- Kanan: icon notifikasi -->
+            <button class="icon-button bell-button" aria-label="Notifikasi">
+                <span class="material-symbols-outlined">
+                notifications
+                </span>
+            </button>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- KONTEN UTAMA -->
+    <main class="main-content">
+      <!-- Statistik / Carousel -->
+        <section class="stats-section">
+        <div class="carousel" id="stats-carousel">
+            <div class="carousel-track">
+            <!-- SLIDE 1 -->
+            <article class="stats-card" data-index="0">
+                <div class="stats-overlay"></div>
+                <div class="stats-content">
+                <h2 class="stats-number-big">2000+</h2>
+                <p class="stats-title">Partisipan Aktif</p>
+                <p class="stats-subtitle">
+                    Ribuan orang telah berkontribusi nyata dalam menjaga lingkungan bersama KnowWaste.
+                </p>
+                </div>
+            </article>
+
+            <!-- SLIDE 2 -->
+            <article class="stats-card stats-card-2" data-index="1">
+                <div class="stats-overlay"></div>
+                <div class="stats-content">
+                <h2 class="stats-number-big">7000 Kg</h2>
+                <p class="stats-title">Perangkat Didaur Ulang</p>
+                <p class="stats-subtitle">
+                    Limbah elektronik yang dikelola dengan benar mengurangi dampak buruk bagi alam dan kesehatan.
+                </p>
+                </div>
+            </article>
+
+            <!-- SLIDE 3 -->
+            <article class="stats-card stats-card-3" data-index="2">
+                <div class="stats-overlay"></div>
+                <div class="stats-content">
+                <h2 class="stats-number-big">7 Ton</h2>
+                <p class="stats-title">Sampah Terselamatkan</p>
+                <p class="stats-subtitle">
+                    Kontribusi kecil setiap orang membuat perubahan besar bagi bumi.
+                </p>
+                </div>
+            </article>
+            </div>
+        </div>
+
+        <!-- Dots indicator -->
+        <div class="carousel-dots">
+            <button class="dot active" data-index="0"></button>
+            <button class="dot" data-index="1"></button>
+            <button class="dot" data-index="2"></button>
+        </div>
+        </section>
+
+
+      <!-- Menu utama 4 fitur -->
+        <section class="menu-section">
+            <div class="menu-grid">
+                <!-- Edukasi -->
+                <button class="menu-card" data-target="edukasi.html">
+                <div class="menu-icon">
+                    <img src="../assets/icon-edukasi.png" alt="Edukasi Sampah" />
+                </div>
+                <span class="menu-label">Edukasi Sampah</span>
+                </button>
+
+                <!-- Scan Sampah (sama seperti nav Scan) -->
+                <button class="menu-card" data-target="scan.html">
+                <div class="menu-icon">
+                    <img src="../assets/icon-scan.png" alt="Scan Sampah" />
+                </div>
+                <span class="menu-label">Scan Sampah</span>
+                </button>
+
+                <!-- Notification -->
+                <button class="menu-card" data-target="notification.html">
+                <div class="menu-icon">
+                    <img src="../assets/icon-notif.png" alt="Notification" />
+                </div>
+                <span class="menu-label">Notification</span>
+                </button>
+
+                <!-- History -->
+                <button class="menu-card" data-target="history.html">
+                <div class="menu-icon">
+                    <img src="../assets/icon-history.png" alt="History" />
+                </div>
+                <span class="menu-label">History</span>
+                </button>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- BOTTOM NAVIGATION -->
+    <!-- Google Material Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <div id="nav-root"></div>
+
+  </div>
+
+
+    <script src="../js/navbar.js" defer></script>
+    <script src="../js/carousel.js" defer></script>
+    <script src="../js/login.js"></script>
+
+</body>
+</html>
