@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "Bak Sampah Anggrek A",
+    "accepts": ["Organik", "Plastik", "Kaca"],
+    "address": "BINUS Anggrek, Kemanggisan",
+    "hours": "08:00 - 17:00",
+    "lat": -6.20155,
+    "lng": 106.78325
+  }
+]
